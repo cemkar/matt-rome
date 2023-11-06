@@ -145,7 +145,7 @@ body {
     position:relative;
     width:auto;
     height: auto;
-    width:auto; /* Adjust the height as needed */
+    width:auto; 
     background-color: #171717;
     padding-bottom:100px
 
@@ -233,7 +233,6 @@ body {
 .large-placeholder {
     padding-top:100px;
     background:transparent;
-   /* Maintain 2:3 aspect ratio for the large placeholder */
 }
 
 .small-placeholder {
