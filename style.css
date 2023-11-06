@@ -81,7 +81,8 @@ body {
 
 .signature {
     background-color:transparent;
-    font-size:48px;
+    font-size:42px;
+    padding:0;
     display:block;
     position:absolute;
     left:50px;
