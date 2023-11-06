@@ -21,7 +21,7 @@ body {
 .welcome {
     display:block;
     position:absolute;
-    top:200px;
+    top:125px;
     left:50px;
     margin:0;
     background:transparent;
@@ -49,11 +49,24 @@ body {
 }
 
 .welcome > .two {
-    font-size:58px;
+    font-size:114px;
     font-weight: 600;
     margin-bottom:25px;
     text-shadow: 1px 1px 2px #171717;
+    padding-bottom:0px;
+    margin:0;
     font-weight:bolder;
+}
+
+.welcome > .two-padding {
+    font-size:128px;
+    font-weight: 600;
+    margin-bottom:25px;
+    text-shadow: 1px 1px 2px #171717;
+    padding-bottom:20px;
+    margin:0;
+    font-weight:bolder;
+
 }
 
 .welcome > .three {
@@ -65,7 +78,7 @@ body {
     width:auto;
     background:transparent;
     position:absolute;
-    top:540px;
+    top:600px;
     left:50px;
     
 }
@@ -131,9 +144,10 @@ body {
     display: block;
     position:relative;
     width:auto;
-    height: 1000px;
+    height: auto;
     width:auto; /* Adjust the height as needed */
     background-color: #171717;
+    padding-bottom:100px
 
 }
 
@@ -147,12 +161,13 @@ body {
     margin-left:auto;
     margin-right:auto;
     display:block;
+    text-shadow:1px 1px #141414;
 }
 
 .grid-container {
     margin-top:100px;
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(1, 1fr);
     gap: 25px;
     justify-content: center;
     align-content: center;
@@ -161,7 +176,7 @@ body {
 
 .grid-item {
     width: 100%;
-    padding: 50px;
+    padding: 25px;
     box-sizing: border-box;
     background:transparent;
     
@@ -170,11 +185,67 @@ body {
 .video-placeholder {
     background-color: white;
     height: auto;
-    width: auto;
+    width: 40%;
     margin-left:auto;
     margin-right:auto;
     display:block;
 }
 
+.socialmedia {
+    display: block;
+    position:relative;
+    width:auto;
+    height: auto;
+    width:auto; 
+    background-color:#485647;
+}
 
+.image-grid {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-width: 700px;
+  background: transparent;
+  margin: 0 auto;
+  text-align: center;
+  flex-direction: column;
+  padding-bottom:100px;
+  
+}
+
+.large-image {
+  padding-right:0px;
+  background:transparent;
+}
+
+.small-images {
+  display: flex;
+  flex-direction: row;
+  background:transparent;
+}
+
+.image-placeholder {
+  width: 100%;
+  background-color: transparent;
+  text-align: center;
+}
+
+.large-placeholder {
+    padding-top:100px;
+    background:transparent;
+   /* Maintain 2:3 aspect ratio for the large placeholder */
+}
+
+.small-placeholder {
+  margin: 15px 0;
+  padding:5px;
+  background:transparent; 
+}
+
+.image-placeholder img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  
+}
 
