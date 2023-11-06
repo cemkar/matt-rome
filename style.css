@@ -29,17 +29,17 @@ body {
 }
 
  .welcome {
-        margin: 0; /* Remove any default margin */
-        padding: 0; /* Remove any default padding */
+        margin: 0; 
+        padding: 0; 
     }
 
     .welcome h3, .welcome h1, .welcome p {
-        margin: 0; /* Remove margin for the individual elements */
-        padding: 0; /* Remove padding for the individual elements */
+        margin: 0; 
+        padding: 0; 
     }
 
     .welcome h1 br {
-        display: none; /* Hide line breaks within the h1 element */
+        display: none; 
     }
 
 .welcome > .one {
@@ -101,7 +101,7 @@ body {
     position: relative;
     z-index: 1;
     margin: 0;
-    height: 100vh; /* Use viewport height to fill the screen */
+    height: 100vh; 
     width: 100%;
 }
 
