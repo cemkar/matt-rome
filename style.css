@@ -1,0 +1,137 @@
+* {
+    color:#151D35;
+    background-color:#F3F4F4;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+body {
+    margin:0;
+}
+
+.cursive-text {
+    font-family: 'Brush Script MT', cursive;
+}
+
+.regular-text {
+    font-family: 'Arial';
+    background:transparent;
+    color:white;
+}
+
+.welcome {
+    display:block;
+    position:absolute;
+    top:200px;
+    left:50px;
+    margin:0;
+    background:transparent;
+    color:#F3F4F4;
+}
+
+ .welcome {
+        margin: 0; /* Remove any default margin */
+        padding: 0; /* Remove any default padding */
+    }
+
+    .welcome h3, .welcome h1, .welcome p {
+        margin: 0; /* Remove margin for the individual elements */
+        padding: 0; /* Remove padding for the individual elements */
+    }
+
+    .welcome h1 br {
+        display: none; /* Hide line breaks within the h1 element */
+    }
+
+.welcome > .one {
+    font-size:48px;
+    font-weight: 100;
+    margin-bottom:25px;
+}
+
+.welcome > .two {
+    font-size:58px;
+    font-weight: 600;
+    margin-bottom:25px;
+    text-shadow: 1px 1px 2px #1B1B1B;
+}
+
+.welcome > .three {
+    font-size:18px;
+}
+
+.icon {
+    height:40px;
+    width:auto;
+    background:transparent;
+    position:absolute;
+    top:540px;
+    left:50px;
+    
+}
+
+.second {
+    left:125px;
+}
+
+.emphasize {
+    color:#1B1B1B;
+    background:transparent;
+}
+
+.signature {
+    background-color:transparent;
+    font-size:48px;
+    display:block;
+    position:absolute;
+    left:50px;
+    height:85px;
+    transform: rotate(-4deg);
+    width:auto;
+    z-index:3;
+    color:#141414;
+    float:left;
+}
+
+.cover {
+    background-image: url('./assets/images/background.png'); 
+    background-size: cover; 
+    display:block;
+    position:absolute;
+    z-index:1;
+    margin:0;
+    height:100%;
+    width:100%;
+}
+
+.portrait {
+    height:80%;
+    width:auto;
+    z-index:4;
+    position:absolute;
+    right:10%;
+    bottom:0%;
+    background-color:transparent;
+}
+
+.tint {
+    background-color:#485647;
+    opacity:98%;
+    background-size: cover; 
+    display:block;
+    position:absolute;
+    z-index:2;
+    margin:0;
+    height:100%;
+    width:100%;
+}
+
+.films {
+    display: block;
+    position: relative;
+    top:100%; /* Adjust this value as needed to control the spacing between sections */
+    width: max-content;
+    height: 500px;
+    background-color: black;
+}
+
+
