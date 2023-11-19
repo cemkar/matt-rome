@@ -1,6 +1,3 @@
-# matt-rome
-This is a portfolio page for Matthew Rome <a href="https://cemkar.github.io/matt-rome/" > portfolio </a>
-
 <h1>Matthew Rome's Portfolio Page</h1>
 <h3 align="center"><a href="https://cemkar.github.io/matt-rome/">LINK</a></h3>
 <h3>About</h3>
